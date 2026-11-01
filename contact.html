@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | EasyStockMarkets</title><meta name="description" content="Contact EasyStockMarkets for feedback, suggestions, corrections or business enquiries.">
+<link rel="canonical" href="https://easystockmarkets.com/contact.html"><meta name="robots" content="index, follow">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pages.css">
+<!-- Paste your AdSense code here after you sign up -->
+</head><body>
+<header><div class="w"><a class="logo" href="index.html">EasyStockMarkets</a><nav><a href="index.html">Calculators</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="w"><h1>Contact us</h1><p class="m">Last updated: 1 November 2026</p><div class="box">
+<h2>Get in touch</h2><p>We read every message. Use the form for feedback, calculator suggestions, corrections or advertising enquiries. We usually reply within 2 to 3 working days.</p>
+<p>Email: <a href="mailto:easystockmarkets@gmail.com">easystockmarkets@gmail.com</a></p>
+<form id="f"><label for="n">Your name</label><input id="n" required autocomplete="name">
+<label for="e">Your email</label><input id="e" type="email" required autocomplete="email">
+<label for="s">Subject</label><input id="s" required>
+<label for="m">Message</label><textarea id="m" rows="6" required></textarea>
+<button type="submit">Send message</button></form>
+<p class="m" style="margin-top:14px">Sending opens your email app with the message filled in. We do not give personalised investment advice.</p>
+<script>document.getElementById("f").addEventListener("submit",function(a){a.preventDefault();var g=function(i){return document.getElementById(i).value};location.href="mailto:contact@easystockmarkets.com?subject="+encodeURIComponent(g("s"))+"&body="+encodeURIComponent(g("m")+"\n\nFrom: "+g("n")+" ("+g("e")+")")})</script></div></main>
+<footer><div class="w"><p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="disclaimer.html">Disclaimer</a></p><p>&copy; <span id="y"></span> EasyStockMarkets.com. For education only. Not investment advice.</p></div></footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body></html>

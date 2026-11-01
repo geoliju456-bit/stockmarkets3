@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;font:400 16px/1.7 "Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f6f8f4;color:#14231f}
+@media(prefers-color-scheme:dark){body{background:#0d1714;color:#e9f1ed}.box{background:#14231f!important;border-color:#24382f!important}a{color:#3fbf9f!important}header,footer{border-color:#24382f!important}input,textarea{background:#18322a!important;color:#e9f1ed!important;border-color:#24382f!important}footer,.m{color:#9bb0a8!important}}
+.w{max-width:860px;margin:0 auto;padding:0 18px}header{border-bottom:1px solid #dce5df}header .w{display:flex;justify-content:space-between;align-items:center;height:62px;flex-wrap:wrap}
+.logo{font:700 1.2rem "Bricolage Grotesque",system-ui,sans-serif;text-decoration:none;color:inherit}nav a{margin-left:16px;font-size:.95rem;text-decoration:none;color:#0e5a4a}
+a{color:#0e5a4a}h1,h2{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.2;letter-spacing:-.01em}h1{font-size:clamp(1.8rem,5vw,2.6rem);margin:34px 0 6px}h2{font-size:1.3rem;margin:30px 0 8px}
+.m{color:#5b6b65;font-size:.9rem;margin:0 0 20px}.box{background:#fff;border:1px solid #dce5df;border-radius:16px;padding:6px 24px 24px;margin-bottom:30px}
+label{display:block;font-weight:600;margin:14px 0 4px}input,textarea{width:100%;font:inherit;padding:11px 12px;border:1px solid #dce5df;border-radius:10px}
+button{margin-top:16px;background:#0e5a4a;color:#fff;border:0;border-radius:10px;padding:12px 22px;font:600 1rem inherit;font-family:inherit;cursor:pointer}
+footer{border-top:1px solid #dce5df;padding:24px 0 36px;font-size:.88rem;color:#5b6b65}footer a{margin-right:14px}
